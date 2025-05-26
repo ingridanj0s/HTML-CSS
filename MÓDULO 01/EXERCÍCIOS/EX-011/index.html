@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+        <p>Adaptando o tamanho da imagem ao dispositivo utilizando a tag &lt;picture&gt; e a tag &lt;source:media:type&gt; dentro.
+        </p>
+        <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho da janela do seu navegador.
+        </p>
+        <p>A ordem sempre deverá ser primeiro a foto pequena,  depois a foto média e por fim a grande.
+        </p>
+        <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexível">
+        </picture>
+    <h1>Reproduzindo áudios</h1>
+        <p>Vamos aprender a reproduzir áudios em HTML5. Os melhores formatos para áudio são mp3 e ogg.
+        </p>
+        <audio preload="metadata" autoplay controls loop>
+        <source src="Midia/Underground-Academy-Hanu-Dixit.mp3" type="audio/mpeg">
+        </audio>
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="Midia/Underground-Academy-Hanu-Dixit.mp3">Clique aqui para baixar o arquivo mp3.</a>
+        </p>
+</body>
+</html>
