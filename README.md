@@ -1,2 +1,2 @@
 # HTML-CSS
- Curso de HTML5 e CSS3 (curso em vídeo com Gustavo Guanabara)
+ Estudos sobre o curso de HTML5 e CSS3 através da plataforma "Curso em Vídeo" ministrado pelo mestre Gustavo Guanabara! :)
